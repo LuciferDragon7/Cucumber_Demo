@@ -1,0 +1,12 @@
+stepDefinitions\LoginSteps.class
+stepDefinitions\RegistrationSteps.class
+testRunners\OrderTest.class
+stepDefinitions\BillingSteps.class
+testRunners\UserRegTest.class
+stepDefinitions\SearchSteps.class
+stepDefinitions\OrderSteps.class
+myHooks\AmazonHooks.class
+testRunners\BillingTest.class
+testRunners\UberTest.class
+testRunners\AmazonTest.class
+stepDefinitions\UberBookingSteps.class

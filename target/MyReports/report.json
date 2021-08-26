@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-26T12:49:43.347Z",
+        "line": 3,
+        "name": "User registration with different data",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on registration page",
+            "match": {
+              "location": "stepDefinitions.RegistrationSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the following details",
+            "match": {
+              "location": "stepDefinitions.RegistrationSteps.user_enters_the_following_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Drag",
+                  "Dra",
+                  "drag@gmail.com",
+                  "12345",
+                  "London"
+                ]
+              },
+              {
+                "cells": [
+                  "Sam",
+                  "Sas",
+                  "sam@gmail.com",
+                  "11412",
+                  "NY"
+                ]
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "Dean",
+                  "dean@gmail.com",
+                  "21552",
+                  "Boston"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Registration should be successful",
+            "match": {
+              "location": "stepDefinitions.RegistrationSteps.registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T12:49:43.370Z",
+        "line": 12,
+        "name": "User registration with different data with columns",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data-with-columns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on registration page",
+            "match": {
+              "location": "stepDefinitions.RegistrationSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the following details with columns",
+            "match": {
+              "location": "stepDefinitions.RegistrationSteps.user_enters_the_following_details_with_columns(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "phone",
+                  "city"
+                ]
+              },
+              {
+                "cells": [
+                  "Drag",
+                  "Dra",
+                  "drag@gmail.com",
+                  "12345",
+                  "London"
+                ]
+              },
+              {
+                "cells": [
+                  "Sam",
+                  "Sas",
+                  "sam@gmail.com",
+                  "11412",
+                  "NY"
+                ]
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "Dean",
+                  "dean@gmail.com",
+                  "21552",
+                  "Boston"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Registration should be successful",
+            "match": {
+              "location": "stepDefinitions.RegistrationSteps.registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/registration.feature",
+    "tags": []
+  }
+]
